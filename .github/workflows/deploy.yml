@@ -3,7 +3,7 @@ name: Deploy APKs and Create Releases
 on:
   push:
     paths:
-      - 'build/**'
+      - '*'
 
 permissions:
   contents: write
