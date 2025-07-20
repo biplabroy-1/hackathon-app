@@ -18,7 +18,7 @@ interface MyPickerProps {
   justClose: () => void;
 }
 
-const API_URL = "https://api.remindme.globaltfn.tech";
+const API_URL = "https://remindme.wowdev.xyz";
 
 const MyPicker: React.FC<MyPickerProps> = ({ onClose, justClose }) => {
   const [data, setData] = useState<string[]>([]);
